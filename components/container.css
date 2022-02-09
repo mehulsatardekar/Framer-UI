@@ -1,0 +1,15 @@
+.component-container{
+    margin: 3rem;
+    padding: 5rem;
+}
+
+
+.container{
+    width:90%;
+    margin: auto;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: auto ;
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+@import url('https://cdn.jsdelivr.net/npm/prismjs@1.26.0/themes/prism-tomorrow.min.css');
+@import url('../document/document.css');
+/* @import url('../components/spacing.css');
+@import url('../components/flex.css');
+@import url('../components/container.css'); */
+@import url('../document/prism.css');
+/* @import url('../components/Typography/typography.css'); */
+
+
+
+/*resetter*/
+*{
+    padding: 0;
+    margin: 0;
+} 
+
+:root{
+    --col-primary : #4F46E5;
+    --col-primary-light : #6583e9;
+    --col-success : #03703C;
+    --col-success-light : #2FDD92;
+    --col-danger : #E03546;
+    --col-danger-light : #e6b4ba;
+    --col-warning:#ce972a;
+    --col-warning-light:#FFCC1D;
+    --col-dark:#121212;
+    --col-dark-light:#2C394B;
+    --text-col-white:#fff;
+    --text-col-primary :#4F46E5;
+  
+}
+
+
+/*buttons colors ends*/
+
+
+.icon-sm{
+    font-size: 20px !important;
+}
+
+.icon-default-pl{
+    padding: 2px 0px 1px 0.3px;
+}
+
+.icon-default-pr{
+    padding: 2px 0.3px 1px 0px;
+}
+
+
+
+.w-100{
+    width: 100%;
+}
+.col-dark{
+    color: #414141;
+}
+
+
+
+/*hide elements*/
+
+.hide{
+    display: none;
+}
+
+/*images */
+
+.img-responsive{
+    width: 100%;
+    height: auto; 
+  }
+  
+  .image-round{
+    border-radius: 50%;
+
+}
+  .img-border-05px{
+      padding: 0.5em;
+      background-color: #fff;
+      border-radius: 5px;
+  }
+  
+  .img-round-full{
+      border-radius: 50%;
+  }
+
+
+  
+/* Specific to prism js code part*/
+
+.prism-default{
+    height: 40vh;
+}
+
+.prism-default::-webkit-scrollbar{
+  width: 10px;
+}
+
+.prism-default::-webkit-scrollbar-track{
+    background-color: #b2b2b39a;
+}
+
+.prism-default::-webkit-scrollbar-thumb {
+    border-radius: 33px;
+    background-color: #0e0f0f5d;
+}
+
+.blocks{
+    display: none;
+}
