@@ -1,0 +1,78 @@
+/* @import url('../../components/root.css');
+@import url('../../components/Buttons/button.css'); */
+
+@import url('../../components/framer.css');
+
+:root{
+    --bg-icon-hover:#818cf8;
+}
+.alert{
+    padding: 1.2rem ;
+    border-radius: 0.188rem;
+    border: 1px solid transparent;
+}
+
+/* Alert width sizes*/
+
+.alert-width-50{
+    width: 50%;
+}
+
+
+.alert-width-80{
+    width: 80%;
+}
+
+.alert-width-100{
+    width: 100%;
+}
+
+/* Alert colors*/
+
+.alert-primary{
+   background-color: var(--col-primary);
+   color: var(--text-col-white);
+}
+
+
+.alert-success{
+    background-color: var(--col-success);
+    color: var(--text-col-white);
+}
+
+.alert-danger{
+    background-color: var(--col-danger);
+    color: var(--text-col-white);
+}
+
+.alert-warning{
+    background-color: var(--col-warning);
+    color: var(--text-col-white);
+}
+
+.alert-dark{
+    background-color: var(--col-dark);
+    color: var(--text-col-white);
+
+}
+
+
+/*alert link colors*/
+
+.alert-link{
+    color: var(--text-col-white);
+    font-weight: bold;
+}
+
+.alert-link:hover{
+    color: rgb(48, 47, 47);
+}
+
+.alert-icon{
+    padding:0.2rem;
+}
+.alert-icon:hover{    
+    background: var(--bg-icon-hover);
+    border-radius: 50%;
+    transition: background 0.5s ease-in-out;
+}
