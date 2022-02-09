@@ -1,0 +1,83 @@
+/* @import url('../../components/root.css'); */
+
+@import url('../../components/framer.css');
+
+
+.avatar-space-default{
+    padding: 0.3em;
+ }
+ 
+ .avatar-space-group{
+     padding: 0em;
+     margin-left: -2em;
+  }
+ 
+ 
+ .avatar-lg{
+  width: 10em;   
+ }
+ .avatar-md{
+     width: 7em;   
+ }
+ .avatar-sm{
+     width: 5em;   
+ }
+ .avatar-ex-sm{
+     width: 3em;
+ }
+    
+ 
+ 
+ 
+ .avatar-group{
+     border-radius: 50%;
+     position: relative;
+     left: -5px;
+     margin-left: -25px;
+     z-index: 1;
+   }
+   
+   .avatars {
+     direction: rtl;  
+     text-align: left;  
+     padding-left: 25px; 
+   }
+ 
+   .avatar-text{
+     
+     font-weight: bolder;
+     padding: 0.2em;
+     border-radius: 50%;
+     color: var(--text-col-white);
+   }
+ 
+   .avatar-bg-primary{
+     background-color: var(--col-primary);
+ 
+   }
+ 
+   .avatar-hw-lg{
+     font-size: 1.8em;
+     width: 6em;  
+     height: 6em; 
+   }
+ 
+   .avatar-hw-md{
+     font-size: 1.5em;
+     width: 4em;  
+     height: 4em; 
+   }
+ 
+   .avatar-hw-sm{
+     font-size: 1em;
+     width: 2.5em;  
+     height: 2.5em; 
+   }
+ 
+   .avatar-hw-ex-sm{
+     font-size: 1em;
+     width: 1.5em;  
+     height: 1.5em; 
+   }
+ 
+ 
