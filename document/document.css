@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lexend:wght@500&display=swap');
+
+body{
+    
+    font-family: 'Inter',sans-serif;
+
+}
+
+.card-bg-white{
+  background: #ffffff !important;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: #edeff1;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,.1);   
+ }
+
+.card > .card-title{
+    background-color: #fff;
+    height: 15%;
+    color: #1b1b1b;
+    padding : 2px 0px 0px 3px;
+}
+
+.card> .card-title > h3{
+    padding: 10px;
+
+}
+
+.card > .card-content{
+    margin: 1rem 0rem 1rem 0rem;
+    height: auto;
+    display: flex;
+    align-items: center;
+    
+}
+.card > .card-footer {
+    
+}
+
+.text-mid{
+    font-size: medium;
+    font-weight: bold
+}
+
+.text-red{
+    color: rgba(241, 11, 11, 0.726);
+}
