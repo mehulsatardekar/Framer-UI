@@ -1,0 +1,141 @@
+/* @import url('../../components/root.css');
+@import url('../../components/avatar/avatar.css'); */
+
+@import url('../../components/framer.css');
+
+
+:root{
+    --badge-primary:#4F46E5;
+    --badge-success:#03703C;
+    --badge-danger: #E03546;
+    --badge-dark:#121212;
+    --badge-warning:#ce972a;
+    --text-col-white:#fff;
+}
+.badge-primary-text{
+      color: var(--badge-primary);
+  }
+
+.badge-success-text{
+    color: var(--badge-success);
+}
+
+.badge-danger-text{
+    color: var(--badge-danger);
+}
+
+.badge-dark-text{
+    color: var(--badge-dark);
+}
+.badge-warning-text{
+    color: var(--badge-warning);
+}
+
+
+
+ .badge-primary{
+    background: var(--badge-primary);
+ }
+
+ .badge-success{
+     background-color: var(--col-success);
+ }
+
+ .badge-danger{
+    background-color: var(--badge-danger);
+}
+
+.badge-dark{
+    background-color: var(--badge-dark);
+}
+
+.badge-warning{
+    background-color: var(--badge-warning);
+}
+ 
+/*Badge text starts*/
+ 
+.badge-text{
+    padding :0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 0.313rem;
+    color: var(--text-col-white);
+    
+}
+
+.font-size{
+    font-size: medium;
+}
+
+.badge-text-round-md{
+    padding :0.3rem;
+    margin-left: 0.5rem;
+    border-radius: 0.938rem;
+    font-size: 1rem;
+    color: var(--text-col-white);
+}
+
+
+.badge-text-round-sm{
+    padding :0.3rem;
+    margin-left: 0.5rem;
+    border-radius: 0.938rem;
+    font-size: 0.8rem;
+    color: var(--text-col-white);
+}
+/**/
+
+
+/* status badge  */
+
+.badge{
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.badge-status-sm{
+    position: absolute;
+    padding: 0.5rem;
+    right: 0.063rem;
+    bottom: 0.5rem;
+    border-radius: 50%;
+}
+
+.badge-status-ex-sm{
+    position: absolute;
+    padding: 0.4rem;
+    right: -1px;
+    bottom: 0.25rem;
+    border-radius: 50%;
+}
+
+.badge-status-lg{
+    position: absolute;
+    padding: 0.5rem;
+    right: 0.688rem;
+    bottom: 0.5rem;
+    border-radius: 50%;
+}
+
+
+.icon-badge{
+    padding: 0.625rem;
+    border-radius: 50%;
+    color: var(--text-col-white);
+}
+
+
+.badge-circle{
+    position: absolute;
+    border-radius: 50%;
+    padding: 0.5rem;
+    right: -1.2rem;
+    top: -0.8rem;
+    color: var(--text-col-white);
+}
+
+.badge-status-shadow{
+    border: 0.1rem  solid white;
+    box-shadow: 1px 2px 3px rgb(128, 127, 127);
+}
