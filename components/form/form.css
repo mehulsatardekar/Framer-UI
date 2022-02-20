@@ -1,7 +1,4 @@
-/* @import url('../../components/root.css');
-@import url('../../components/form/form.css');
-@import url('../../components/Buttons/button.css');
-@import url('../../components/card/card.css'); */
+
 
 
 @import url('../../components/framer.css');
@@ -12,11 +9,10 @@
     --form-input-disable:#E5E7EB;
     --form-input-error:#E03546;
     --form-input-error-shadow:#e6b4ba;
-    
+    --input-txt-col:#212529;
     --form-input-success:#03703C;
     --form-input-success-shadow:#2FDD92;
-
-    
+    --slider-box-shadow:rgba(0,0,0,0.2);
     --form-input-warning:#ce972a;
     --form-input-warning-shadow:#FFCC1D;
 }
@@ -41,11 +37,11 @@
 }
 .input{
     width: auto;
-    height: 45px;
+    height: 2.813rem;
     border-radius: 4px;
     border: 1px solid var(--form-input-border);
     padding: 0rem 1rem;
-    color: #212529;
+    color: var(--input-txt-col);
     font-weight: 600;
     font-size: 1rem;
 }
@@ -55,12 +51,12 @@
 }
 
 .input-checkbox{
-    width: 15px;
-    height: 45px;
+    width: 0.938rem;
+    height: 2.813rem;
     border-radius: 4px;
     border: 1px solid var(--form-input-border);
     padding: 0rem 1rem;
-    color: #212529;
+    color: var(--input-txt-col);
     font-weight: 600;
     font-size: 1rem;
 }
@@ -123,6 +119,6 @@ input[type='checkbox']{
     height: 10px;
     outline: none;
     border-radius: 10px;
-    box-shadow: inset 0px 0px 4px rgba(0,0,0,0.2);
+    box-shadow: inset 0px 0px 4px var(--slider-box-shadow);
 }
 
