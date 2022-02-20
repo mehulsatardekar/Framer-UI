@@ -1,11 +1,10 @@
-/* @import url('../../components/root.css'); */
 
 @import url('../../components/framer.css');
 
 
 .list-bg{
     background-color: var(--text-col-white);
-    border-radius: 0.313rem;
+    border-radius: 5.008px;
 }
 
 .text-deocration-none{
@@ -59,12 +58,12 @@
 /* Image section of notification*/
 
 .notification-container{
-    padding: 1rem 0.5rem 1rem 0.5rem;
+    padding: 1rem 8px ;
     background-color: var(--text-col-white);
 }
 .notification-img{
     width: 9.375rem;
     height: 100%;
-    border-radius: 0.313rem;
+    border-radius: 5.008px;
 }
 
