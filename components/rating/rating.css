@@ -1,0 +1,23 @@
+
+
+@import url('../../components/framer.css');
+
+.rating-icon{
+    cursor: pointer;
+    color: gray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+
+.card > .card-content > .flex> .rating-icon >.rating-icon-size{
+  font-size: 2.5rem;
+}
+
+.rating-container label:hover,
+.rating-container label:hover ~ label,
+.rating-container input:checked ~ label {
+  color: var(--col-warning-light)
+  
+}
+
