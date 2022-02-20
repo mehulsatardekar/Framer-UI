@@ -27,7 +27,7 @@
 }
 
 .items{
-    height: 450px;
+    height: 28.125rem;
     background: var(--col-dark);
 }
 
@@ -38,7 +38,7 @@
 
 
 
-@media screen and (max-width:700px) {
+@media only screen and (max-width:700px) {
     .grid-50-50{
         grid-template-columns: 1fr;
     }
