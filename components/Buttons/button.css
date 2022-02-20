@@ -1,11 +1,8 @@
 
-
 @import url('../../components/framer.css');
-
 
 .btn-py-1{
     padding:0.7rem 2rem;
-
 }
 
 .btn-pl-1{
@@ -22,9 +19,7 @@
 
 .btn-sm{
     padding :0.5rem 2.5rem ;
-
 }
-
 
 .btn{
     border-radius: 0.188rem;
@@ -38,12 +33,18 @@
 }
 
 
+.btn-link{
+    text-decoration:underline;
+      background-color: transparent;
+      cursor: pointer;
+  }
+
+  
 .btn-primary{
      
     color: var(--text-col-white);
     background-color: var(--col-primary);
     border: 2px solid var(--col-primary);
-
 }
 
 .btn-primary:active{
@@ -59,7 +60,6 @@
 
 .btn-success:active{
     background-color: var(--col-success-light);
-
 }
 
 .btn-danger{
@@ -70,35 +70,27 @@
 
 .btn-danger:active{
     background-color: var(--col-danger-light);
-
 }
 
 .btn-warning{
     border: 2px solid var(--col-warning);
     color: var(--text-col-white);
     background-color: var(--col-warning);
-   
-
 }
 
 .btn-warning:active{
     background-color: var(--col-warning-light);
-
 }
-
 
 .btn-dark{
      
     color: var(--text-col-white);
-    background-color: var(--col-dark);
-   
+    background-color: var(--col-dark); 
 }
 
 .btn-dark:active{
     background-color: var(--col-dark-light);
 }
-
-
 
 /* btn outline */
 
@@ -106,16 +98,12 @@
     border: 2px solid var(--col-primary);
     color: var(--col-primary);
     background-color: var(--bg-col-btn);
-
 }
-
-
 
 .btn-outline-success{
     border:2px solid var(--col-success);
     color: var(--col-success);
     background-color: var(--bg-col-btn);
-
 }
 
 
@@ -142,41 +130,29 @@
     
     color: var(--text-col-white);
     background-color: var(--col-primary);
-   
-
 }
 
 .btn-outline-success:hover{
      
     color: var(--text-col-white);
     background-color: var(--col-success);
-   
-
 }
-
-
 
 .btn-outline-danger:hover{
      
     color: var(--text-col-white);
     background-color: var(--col-danger);
-   
-
 }
 
 
-.btn-outline-warning:hover{
-     
+.btn-outline-warning:hover{  
     color: var(--text-col-white);
     background-color: var(--col-warning);
-
 }
 
-.btn-outline-dark:hover{
-     
+.btn-outline-dark:hover{  
     color: var(--text-col-white);
     background-color: var(--col-dark);
-
 }
 
 /*Button shapes*/
