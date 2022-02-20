@@ -1,10 +1,9 @@
-/* @import url('../../components/root.css');
-@import url('../../components/Buttons/button.css');
-@import url('../../components/alert/alert.css'); */
-
 
 @import url('../../components/framer.css');
 
+:root{
+    --snackbar-ico-hover:rgba(151, 153, 155, 0.411);
+}
 .snackbar-primary{
     background: var(--col-primary);
     color: var(--text-col-white);
@@ -39,7 +38,7 @@
 
 }
 .snackbar-icons:hover{
-    background: rgba(151, 153, 155, 0.411);
+    background: var(--snackbar-ico-hover);
     border-radius: 50%;
     transition: background 0.4s ease-in-out;
 }
@@ -56,33 +55,31 @@
 }
 
 .snack-left{
-    left: 20px;
-    bottom: 30px;
+    left: 1.25rem;
+    bottom: 1.875rem;
 }
 
 .snack-right{
-    right: 20px;
-    bottom: 30px;
+    right: 1.25rem;
+    bottom: 1.875rem;
 }
-
-
 
 @-webkit-keyframes fadein {
     from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
+    to {bottom: 1.875rem; opacity: 1;}
   }
   
   @keyframes fadein {
     from {bottom: 0; opacity: 0;}
-    to {bottom: 30px; opacity: 1;}
+    to {bottom: 1.875rem; opacity: 1;}
   }
   
   @-webkit-keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
+    from {bottom: 1.875rem; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
   
   @keyframes fadeout {
-    from {bottom: 30px; opacity: 1;}
+    from {bottom: 1.875rem; opacity: 1;}
     to {bottom: 0; opacity: 0;}
   }
