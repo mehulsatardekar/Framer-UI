@@ -1,0 +1,23 @@
+/* @import url('../../components/root.css'); */
+
+
+@import url('../../components/framer.css');
+
+.rating-icon{
+    cursor: pointer;
+    color: gray;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+.rating-icon-size{
+    font-size: 40px !important;
+
+}
+
+.rating-container label:hover,
+.rating-container label:hover ~ label,
+.rating-container input:checked ~ label {
+  color: var(--col-warning-light)
+  
+}
+
