@@ -1,0 +1,124 @@
+
+
+
+@import url('../../components/framer.css');
+
+:root{
+    --form-input-border:#ced4da;
+    --form-input-border-shadow:#A5B4FC;
+    --form-input-disable:#E5E7EB;
+    --form-input-error:#E03546;
+    --form-input-error-shadow:#e6b4ba;
+    --input-txt-col:#212529;
+    --form-input-success:#03703C;
+    --form-input-success-shadow:#2FDD92;
+    --slider-box-shadow:rgba(0,0,0,0.2);
+    --form-input-warning:#ce972a;
+    --form-input-warning-shadow:#FFCC1D;
+}
+
+.label-text-primary{
+    color: var(--col-primary);
+}
+.label-text{
+    font-weight: 700;
+}
+
+.label-text-success{
+    color: var(--col-success);
+
+}
+.label-text-danger{
+    color: var(--col-danger);
+}
+
+.label-text-warning{
+    color: var(--col-warning);
+}
+.input{
+    width: auto;
+    height: 2.813rem;
+    border-radius: 4px;
+    border: 1px solid var(--form-input-border);
+    padding: 0rem 1rem;
+    color: var(--input-txt-col);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.input:focus{
+    outline: 2px solid var(--form-input-border-shadow);
+}
+
+.input-checkbox{
+    width: 0.938rem;
+    height: 2.813rem;
+    border-radius: 4px;
+    border: 1px solid var(--form-input-border);
+    padding: 0rem 1rem;
+    color: var(--input-txt-col);
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.input-disabled{
+   background: var(--form-input-disable);
+   
+}
+input[type='checkbox']{
+    accent-color: var(--col-primary);
+}
+
+.input-textarea{
+    height: 7.5rem;
+    resize: vertical;
+}
+
+.disable-btn{
+    background: var(--col-primary-light);
+    border: none;
+}
+
+.input-error{
+    border: 1px solid var(--form-input-error);
+}
+
+.input-error:focus{
+    outline: 2px solid var(--form-input-error-shadow);
+}
+.input-success{
+    border: 1.2px solid var(--form-input-success);
+}
+
+.input-success:focus{
+    outline: 2px solid var(--form-input-success-shadow);
+
+}
+
+.input-warning{
+    border: 1.2px solid var(--form-input-warning);
+}
+
+.input-warning:focus{
+    outline: 2px solid var(--form-input-warning-shadow);
+
+}
+
+.slider-primary{
+    accent-color: var(--col-primary);
+}
+
+.slider-danger{
+    accent-color: var(--col-danger);
+}
+
+.slider-dark{
+    accent-color: var(--col-dark);
+}
+.slider{
+    height: 10px;
+    outline: none;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 4px var(--slider-box-shadow);
+}
+

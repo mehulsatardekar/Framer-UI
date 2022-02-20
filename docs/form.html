@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="../components/form/form.css">
+    <meta name="theme-color" content="#2C2929">
+
+
+</head>
+
+<body>
+
+    <nav class="nav z-index-max">
+        <div class="flex flex-row nav-logo flex-between flex-align-item-center ">
+            <div class="sidebar-logo flex flex-align-item-center">
+                <span class="material-icons icon-nav-menu" id="menu">
+                    menu
+                </span>
+                <span class="logo-text">Framer-Ui</span>
+            </div>
+            <div class="flex flex-wrap gap">
+                <a href="https://github.com/mehulsatardekar"  target="_blank" rel="noreferrer">
+                    <box-icon name='github' type='logo' color='#eeeded' ></box-icon>  
+                </a>  
+                <a href="https://www.youtube.com/channel/UCOPdSGIn44Gh4QXZH_6U8gQ"  target="_blank" rel="noreferrer">
+                    <box-icon name='youtube' type='logo' color='#eeeded' ></box-icon>  
+                </a> 
+            </div>
+        </div>
+        <aside class="sidebar-menu  flex flex-column flex-between"  id="sidebar-menu">
+            <div class="flex flex-column flex-between mt-1">
+                <div class="flex flex-between flex-align-item-center ">
+                    <span class="font-mid-bold ml-1 logo-text">Framer-UI</span>
+                    <span class="material-icons mr-1 icon-nav-menu" id="close">close</span>
+                </div>
+                 <div class="content flex flex-column slider-content-section gap">
+                    <ul class="flex flex-column  list-style-none mt-2 gap-1 ">
+                       <a href="../docs/home.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text">
+                           Get Started 
+                        </li>
+                       </a>
+                       <a href="../docs/alert.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='badge-check' type='solid' color='#eeeded' ></box-icon>
+                           <span>Alerts</span>
+                        </li>
+                       </a>
+                       <a href="../docs/avatar.html" class="text-deocration-none  selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='user-account' type='solid' color='#eeeded' ></box-icon>
+                            <span>Avatar</span>
+                        </li>
+                       </a>
+                       <a href="../docs/badges.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='badge-check' type='solid' color='#eeeded' ></box-icon>
+                            <span>Badges</span>
+                        </li>
+                       </a>
+                       <a href="../docs/button.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon type='solid' name='plus-square'  color='#eeeded'></box-icon>
+                            <span>Buttons</span>
+                        </li>
+                       </a>
+                       <a href="../docs/cards.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='credit-card-front' color='#eeeded' ></box-icon>
+                            <span>Cards</span>
+                        </li>
+                       </a>
+                       <a href="../docs/form.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='food-menu' color='#eeeded'></box-icon>
+                            <span>Forms</span>
+                        </li>
+                       </a>
+                       <a href="../docs/grid.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='grid-alt' type='solid' color='#eeeded' ></box-icon>
+                            <span>Grids</span>
+                        </li>
+                       </a>
+                       <a href="../docs/image.html" class="text-deocration-none selected-text ">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='images' color='#eeeded' ></box-icon>
+                            <span>Images</span>
+                        </li>
+                       </a>
+                       <a href="../docs/list.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='list-ul' color='#eeeded' ></box-icon>
+                            <span>Lists</span>
+                        </li>
+                       </a>
+                       <a href="../docs/modal.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='card' color='#eeeded' ></box-icon>
+                            <span>Modal</span>
+                        </li>
+                       </a>
+                       <a href="../docs/navigation.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='navigation' color='#eeeded' ></box-icon>
+                            <span>Navbars</span>
+                        </li>
+                       </a>
+                       <a href="../docs/rating.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='star-half' type='solid' color='#eeeded' ></box-icon>
+                            <span>Ratings</span>
+                        </li>
+                       </a>
+                       <a href="../docs/toast.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='copy' color='#eeeded' ></box-icon>
+                            <span>Toasts</span>
+                        </li>
+                       </a>
+                       <a href="../docs/typography.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='font-family' color='#eeeded' ></box-icon>
+                            <span>Typography</span>
+                        </li>
+                       </a>
+                    </ul>
+                        
+                 </div>
+            </div>
+             <div class="flex mt-1 ml-1 flex-align-item-center">
+                <svg width="40" height="32" viewBox="0 0 40 32" aria-hidden="true">
+                    <mask id="32e25648-9cb3-4aba-a168-64581e7aa254" width="52" height="52">
+                        <circle cx="16" cy="16" r="16" fill="white"></circle>
+                        <rect color="black" x="19" y="19" width="16" height="16" rx="8" ry="8"></rect>
+                    </mask>
+                    <foreignObject x="0" y="0" width="32" height="32" mask="url(#32e25648-9cb3-4aba-a168-64581e7aa254)">
+                        <div class="avatarStack-2Dr8S9"><img src="https://cdn.discordapp.com/avatars/709733291946672128/63f8ccaab30e072ae3a184ab142ddc54.webp" alt=" " class="avatar-user-icon" aria-hidden="true"></div>
+                    </foreignObject><svg x="14.5" y="17" width="25" height="15" viewBox="0 0 25 15">
+                        <mask id="2b3fa5a7-0ec2-4469-b164-f8d5007235b6">
+                            <rect x="7.5" y="5" width="10" height="10" rx="5" ry="5" fill="white"></rect>
+                            <rect x="12.5" y="10" width="0" height="0" rx="0" ry="0" fill="black"></rect>
+                            <polygon points="-2.16506,-2.5 2.16506,0 -2.16506,2.5" fill="black" transform="scale(0) translate(13.125 10)" style="transform-origin: 13.125px 10px;">
+                            </polygon>
+                            <circle fill="black" cx="12.5" cy="10" r="0"></circle>
+                        </mask>
+                        <rect fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)" width="25" height="15" mask="url(#2b3fa5a7-0ec2-4469-b164-f8d5007235b6)"></rect>
+                    </svg>
+                    <rect x="22" y="22" width="10" height="10" fill="transparent" aria-hidden="true" class="pointerEvents-2zdfdO"></rect>
+                </svg>
+                <div class="flex flex-column">
+                    <span class="font-white">Made 😎 by Mehul </span>
+                    
+                </div>
+             </div>
+        </aside>
+    </nav>
+
+    <div class="container">
+        <div class="mt-3">
+            <h1 class="pb-1">Form Components</h1>
+            <p>This login component has <span class="text-red"> .ui-card-default</span> card class, you can use also
+                <span class="text-red">.width-full</span> class to cover card with full width.</p>
+            <div class="card mt-1">
+
+                <div class="card-content flex flex-space-evenly flex-wrap gap pt-2 pb-2">
+
+                    <div class="flex flex-column gap ui-card-default py-1">
+
+                        <div class="flex flex-column gap-1">
+                            <label for="exampleInputEmail1" class="label-text label-text-primary">Email Address</label>
+                            <input type="email" class="input" placeholder="Email" id="emailInput1"
+                                aria-describedby="emailHelp">
+                            <span class="font-md-light">We'll never share your email with anyone else.</span>
+                        </div>
+
+                        <div class="flex flex-column gap-1">
+                            <label for="passwordInput2" class="label-text label-text-primary">Password</label>
+                            <input type="password" class="input" placeholder="Password" id="passwordInput2">
+                        </div>
+                        <div class="flex flex-row gap-1 flex-align-item-center">
+                            <input type="checkbox" class="input-checkbox" id="checkboxInput1">
+                            <label for="checkboxInput1" class="label-text label-text-primary">check out</label>
+                        </div>
+
+                        <button class="btn-primary btn btn-py-1 flex flex-justify-center width-full ">
+                            <span class="font-size-sm"> Login </span>
+                        </button>
+
+                    </div>
+
+                </div>
+                <div class="card-footer">
+                    <script type="text/plain" class="line-numbers language-markup prism-default">
+                        <!-- Login-component -->
+
+                    <div class="flex flex-column gap ui-card-default py-1">
+
+                        <div class="flex flex-column gap-1">
+                            <label for="exampleInputEmail1" class="label-text label-text-primary">Email Address</label>
+                            <input type="email" class="input" placeholder="Email" id="emailInput1"
+                                aria-describedby="emailHelp">
+                            <span class="font-md-light">We'll never share your email with anyone else.</span>
+                        </div>
+
+                        <div class="flex flex-column gap-1">
+                            <label for="passwordInput2" class="label-text label-text-primary">Password</label>
+                            <input type="password" class="input" placeholder="Password" id="passwordInput2">
+                        </div>
+                        <div class="flex flex-row gap-1 flex-align-item-center">
+                            <input type="checkbox" class="input-checkbox label-text-primary" id="checkboxInput1">
+                            <label for="checkboxInput1" class="label-text">check out</label>
+                        </div>
+
+                        <button class="btn-primary btn btn-py-1 flex flex-justify-center width-full ">
+                            <span class="font-size-sm"> Login </span>
+                        </button>
+
+                    </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <h1 class="pb-1">Disable & Readonly fields</h1>
+            <p class="pb-1">Add <span class="text-red">.input</span> class for basic styling to input tags and for
+                checkbox add <span class="text-red">.input-checkbox</span> same goes for textarea, add <span
+                    class="text-red">.input-textarea</span> class.</p>
+            <p class="pb-1">To Disable/readonly the inputs first add disable/readonly attributes then add <span
+                    class="text-red">.input-disabled</span> class & to disable button add <span
+                    class="text-red">.disable-btn</span></p>
+
+            <div class="card mt-1">
+
+                <div class="card-content flex flex-space-evenly flex-wrap gap pt-2 pb-2">
+
+                    <div class="flex flex-column gap ui-card-default width-full py-1">
+
+                        <div class="flex flex-column gap-1">
+                            <input type="text" class="input input-disabled" placeholder="Disable input"
+                                aria-describedby="disabled text-input" disabled>
+                        </div>
+
+                        <div class="flex flex-column gap-1">
+                            <input type="text" class="input input-disabled" placeholder="Disabled read only"
+                                aria-describedby="disabled readonly text-input" disabled readonly>
+                        </div>
+                        <div class="flex flex-row flex-wrap gap-1 flex-align-item-center">
+
+                            <input type="checkbox" class="input-checkbox input-disabled" id="disableCheckBox" disabled>
+                            <label for="disableCheckBox" class="font-md-light">Disable checkbox</label>
+
+                            <input type="radio" class="input-checkbox input-disabled" id="disableRadioBox" disabled>
+                            <label for="disableRadioBox" class="font-md-light">Disable radiobox</label>
+                        </div>
+
+                        <div class="flex flex-column flex-wrap gap-1 ">
+
+                            <label for="textArea1" class="font-md-light">Textarea</label>
+                            <textarea class="input input-disabled py-1 input-textarea" id="textArea1" rows="10"
+                                placeholder="Textarea, Start writing here " readonly></textarea>
+
+                        </div>
+
+                        <button type="button"
+                            class="btn-primary btn btn-py-1 flex flex-justify-center width-full disable-btn" disabled>
+                            <span class="font-size-sm"> Login </span>
+                        </button>
+
+                    </div>
+
+                </div>
+                <div class="card-footer">
+                    <script type="text/plain" class="line-numbers language-markup prism-default">
+                        <!-- Disable & Readonly component -->
+
+                        <div class="flex flex-column gap ui-card-default width-full py-1">
+
+                            <div class="flex flex-column gap-1">
+                                <input type="text" class="input input-disabled" placeholder="Disable input"
+                                    aria-describedby="disabled text-input" disabled>
+                            </div>
+    
+                            <div class="flex flex-column gap-1">
+                                <input type="text" class="input input-disabled" placeholder="Disabled read only"
+                                    aria-describedby="disabled readonly text-input" disabled readonly>
+                            </div>
+                            <div class="flex flex-row flex-wrap gap-1 flex-align-item-center">
+    
+                                <input type="checkbox" class="input-checkbox input-disabled" id="disableCheckBox" disabled>
+                                <label for="disableCheckBox" class="font-md-light">Disable checkbox</label>
+    
+                                <input type="radio" class="input-checkbox input-disabled" id="disableRadioBox" disabled>
+                                <label for="disableRadioBox" class="font-md-light">Disable radiobox</label>
+                            </div>
+    
+                            <div class="flex flex-column flex-wrap gap-1 ">
+    
+                                <label for="textArea1" class="font-md-light">Textarea</label>
+                                <textarea class="input input-disabled py-1 input-textarea" id="textArea1" rows="10"
+                                    placeholder="Textarea, Start writing here " readonly></textarea>
+    
+                            </div>
+    
+                            <button type="button"
+                                class="btn-primary btn btn-py-1 flex flex-justify-center width-full disable-btn" disabled>
+                                <span class="font-size-sm"> Login </span>
+                            </button>
+    
+                        </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <h1 class="pb-1">Inputs error styling</h1>
+            <p class="pb-1">To add the styles to inputs based on states just add class to inputs based on states, we have 3 states <span class="text-red">.input-err, input-success, input-warning</span></p>
+            <p class="pb-1">Same applies for lable too <span class="text-red">.lable-text-danger, .label-text-primary, .label-text-success, .label-text-warning</span></p>
+            <div class="card mt-1">
+
+                <div class="card-content flex flex-space-evenly flex-wrap gap pt-2 pb-2">
+
+                    <div   class="flex flex-wrap flex-column ui-card-default py-1 width-full" >
+                   
+                        <div class="flex flex-column gap-1 mb-1">
+                            <label for="username" class="label-text label-text-danger">Input Error</label>
+                            <input type="text" class="input input-error" placeholder="Enter Username" id="username"
+                                aria-describedby="Username" required/>
+                        </div>
+
+                        <div class="flex flex-column gap-1 mb-1">
+                            <label for="email" class="label-text label-text-success">Input success</label>
+                            <input type="email" class="input input-success" placeholder="Enter email" id="email" required/>
+
+                        </div>
+
+                        <div class="flex flex-column gap-1 mb-1">
+                            <label for="password" class="label-text label-text-warning">Input Warning</label>
+                            <input type="password" class="input input-warning" placeholder="Enter Password" id="password" required/>
+
+                        </div>
+                   </div>
+
+                </div>
+                <div class="card-footer">
+                    <script type="text/plain" class="line-numbers language-markup prism-default">
+                        <!-- validation with error styles-->
+
+                        <div class="flex flex-wrap flex-column ui-card-default py-1 width-full" >
+                   
+                            <div class="flex flex-column gap-1 mb-1">
+                                <label for="username" class="label-text label-text-danger">Input Error</label>
+                                <input type="text" class="input input-error" placeholder="Enter Username" id="username"
+                                    aria-describedby="Username" required/>
+                            </div>
+    
+                            <div class="flex flex-column gap-1 mb-1">
+                                <label for="email" class="label-text label-text-success">Input success</label>
+                                <input type="email" class="input input-success" placeholder="Enter email" id="email" required/>
+    
+                            </div>
+    
+                            <div class="flex flex-column gap-1 mb-1">
+                                <label for="password" class="label-text label-text-warning">Input Warning</label>
+                                <input type="password" class="input input-warning" placeholder="Enter Password" id="password" required/>
+    
+                            </div>
+                       </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+
+        <div class="mt-3">
+            <h1 class="pb-1">Slider</h1>
+            <p class="pb-1">Sliders are available in primary and secondary colors, to use add <span class="text-red">slider-primary, .slider-danger, slider-dark. </span></p>
+            <div class="card mt-1">
+
+                <div class="card-content flex flex-space-evenly flex-wrap gap pt-2 pb-2">
+
+
+                    <div   class="flex flex-wrap flex-column ui-card-default py-1 width-full" >
+                       
+                        
+                        <div class="flex flex-column gap-1 mb-1">
+                            <input type="range" class="slider slider-danger" 
+                             aria-describedby="range-slider" value="60"  min="0" max="100" />
+                             
+                        </div>
+
+                        <div class="flex flex-column gap-1 mb-1">
+                            <input type="range" class="slider slider-dark" 
+                             aria-describedby="range-slider" value="40"  min="0" max="100" />
+                             
+                        </div>
+                       
+                   </div>
+                    <div   class="flex flex-wrap flex-column ui-card-default py-1 width-full" >
+                       
+                        
+                        <div class="flex flex-column gap-1 mb-1">
+                            <input type="range" class="slider slider-primary" id="rangeSlider"
+                             aria-describedby="range-slider" value="10"  min="0" max="100" />
+                             <label for="rangeSlider" id="rangeSliderText" class="label-text label-text-primary">100</label>
+                        </div>
+                       
+                   </div>
+
+                </div>
+                <div class="card-footer">
+                    <script type="text/plain" class="line-numbers language-markup ">
+                        <!-- slider-->
+                        <div class="flex flex-column gap-1 mb-1">
+                            <input type="range" class="slider slider-primary" id="rangeSlider"
+                             aria-describedby="range-slider" value="10"  min="0" max="100" />
+                             <label for="rangeSlider" id="rangeSliderText" class="label-text label-text-primary">100</label>
+                        </div>
+                       
+                    </script>
+
+                    <script type="text/plain" class="line-numbers language-js ">
+                        const sliderInput = document.querySelector('#rangeSlider');
+                        const sliderValue = document.querySelector('#rangeSliderText');
+                        
+                        sliderInput.addEventListener('input',()=> sliderValue.innerText = sliderInput.value)
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="../components/menu/menu.js"></script>
+    <script src="../components/form/form.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="../document/prism.js"></script>
+</body>
+
+</html>
