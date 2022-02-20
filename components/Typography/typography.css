@@ -1,0 +1,88 @@
+/* @import url('../../components/root.css');
+@import url('../../components/card/card.css'); */
+
+
+@import url('../../components/framer.css');
+
+
+
+/*Fonts*/
+
+.font-white{
+    color: var(--text-col-white);
+}
+.text-red{
+    color: var(--col-danger);
+}
+.font-size-sm{
+  font-size: 1rem;
+}
+
+.font-bold{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+
+.font-light{
+    font-weight: lighter;
+    font-size: medium;
+    line-height: 20px;
+    color: #828282;
+}
+.font-mid-light{
+    font-weight: 400;
+    font-size: medium;
+    line-height: 20px;
+}
+
+
+.font-mid-bold{
+    font-weight: 700;
+    font-size: 1.5em;
+    line-height: 20px;
+}
+
+.font-weight-800{
+    font-weight: 800;
+
+}
+
+
+.font-md-light{
+    font-weight: 450;
+    font-size: 1rem;
+    line-height: 20px;
+}
+
+.font-ex-lg{
+    font-size: 6rem;
+}
+
+.font-lg{
+    font-size: 4rem;
+
+}
+
+.font-md{
+    font-size: 3rem;
+}
+.font-sm{
+    font-size: 2rem;
+}
+
+.font-ex-sm{
+    font-size: 1rem;
+}
+
+.font-sm-md{
+    font-size: 1.5rem;
+}
+.font-strike{
+ text-decoration: line-through;
+}
+
+
+.blockquote-footer::before{
+   content: "- ";
+}
