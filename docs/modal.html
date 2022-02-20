@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="../components/modal/modal.css">
+    <meta name="theme-color" content="#2C2929">
+
+</head>
+
+<body>
+
+    <nav class="nav z-index-max">
+        <div class="flex flex-row nav-logo flex-between flex-align-item-center ">
+            <div class="sidebar-logo flex flex-align-item-center">
+                <span class="material-icons icon-nav-menu" id="menu">
+                    menu
+                </span>
+                <span class="logo-text">Framer-Ui</span>
+            </div>
+            <div class="flex flex-wrap gap">
+                <a href="https://github.com/mehulsatardekar"  target="_blank" rel="noreferrer">
+                    <box-icon name='github' type='logo' color='#eeeded' ></box-icon>  
+                </a>  
+                <a href="https://www.youtube.com/channel/UCOPdSGIn44Gh4QXZH_6U8gQ"  target="_blank" rel="noreferrer">
+                    <box-icon name='youtube' type='logo' color='#eeeded' ></box-icon>  
+                </a> 
+            </div>
+        </div>
+        <aside class="sidebar-menu  flex flex-column flex-between"  id="sidebar-menu">
+            <div class="flex flex-column flex-between mt-1">
+                <div class="flex flex-between flex-align-item-center ">
+                    <span class="font-mid-bold ml-1 logo-text">Framer-UI</span>
+                    <span class="material-icons mr-1 icon-nav-menu" id="close">close</span>
+                </div>
+                 <div class="content flex flex-column slider-content-section gap">
+                    <ul class="flex flex-column  list-style-none mt-2 gap-1 ">
+                       <a href="../docs/home.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text">
+                           Get Started 
+                        </li>
+                       </a>
+                       <a href="../docs/alert.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='badge-check' type='solid' color='#eeeded' ></box-icon>
+                           <span>Alerts</span>
+                        </li>
+                       </a>
+                       <a href="../docs/avatar.html" class="text-deocration-none  selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='user-account' type='solid' color='#eeeded' ></box-icon>
+                            <span>Avatar</span>
+                        </li>
+                       </a>
+                       <a href="../docs/badges.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='badge-check' type='solid' color='#eeeded' ></box-icon>
+                            <span>Badges</span>
+                        </li>
+                       </a>
+                       <a href="../docs/button.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon type='solid' name='plus-square'  color='#eeeded'></box-icon>
+                            <span>Buttons</span>
+                        </li>
+                       </a>
+                       <a href="../docs/cards.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='credit-card-front' color='#eeeded' ></box-icon>
+                            <span>Cards</span>
+                        </li>
+                       </a>
+                       <a href="../docs/form.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='food-menu' color='#eeeded'></box-icon>
+                            <span>Forms</span>
+                        </li>
+                       </a>
+                       <a href="../docs/grid.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='grid-alt' type='solid' color='#eeeded' ></box-icon>
+                            <span>Grids</span>
+                        </li>
+                       </a>
+                       <a href="../docs/image.html" class="text-deocration-none selected-text ">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='images' color='#eeeded' ></box-icon>
+                            <span>Images</span>
+                        </li>
+                       </a>
+                       <a href="../docs/list.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='list-ul' color='#eeeded' ></box-icon>
+                            <span>Lists</span>
+                        </li>
+                       </a>
+                       <a href="../docs/modal.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='card' color='#eeeded' ></box-icon>
+                            <span>Modal</span>
+                        </li>
+                       </a>
+                       <a href="../docs/navigation.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='navigation' color='#eeeded' ></box-icon>
+                            <span>Navbars</span>
+                        </li>
+                       </a>
+                       <a href="../docs/rating.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='star-half' type='solid' color='#eeeded' ></box-icon>
+                            <span>Ratings</span>
+                        </li>
+                       </a>
+                       <a href="../docs/toast.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='copy' color='#eeeded' ></box-icon>
+                            <span>Toasts</span>
+                        </li>
+                       </a>
+                       <a href="../docs/typography.html" class="text-deocration-none selected-text">
+                        <li class="sidebar-text flex flex-align-item-center gap-1">
+                            <box-icon name='font-family' color='#eeeded' ></box-icon>
+                            <span>Typography</span>
+                        </li>
+                       </a>
+                    </ul>
+                        
+                 </div>
+            </div>
+             <div class="flex mt-1 ml-1 flex-align-item-center">
+                <svg width="40" height="32" viewBox="0 0 40 32" aria-hidden="true">
+                    <mask id="32e25648-9cb3-4aba-a168-64581e7aa254" width="52" height="52">
+                        <circle cx="16" cy="16" r="16" fill="white"></circle>
+                        <rect color="black" x="19" y="19" width="16" height="16" rx="8" ry="8"></rect>
+                    </mask>
+                    <foreignObject x="0" y="0" width="32" height="32" mask="url(#32e25648-9cb3-4aba-a168-64581e7aa254)">
+                        <div class="avatarStack-2Dr8S9"><img src="https://cdn.discordapp.com/avatars/709733291946672128/63f8ccaab30e072ae3a184ab142ddc54.webp" alt=" " class="avatar-user-icon" aria-hidden="true"></div>
+                    </foreignObject><svg x="14.5" y="17" width="25" height="15" viewBox="0 0 25 15">
+                        <mask id="2b3fa5a7-0ec2-4469-b164-f8d5007235b6">
+                            <rect x="7.5" y="5" width="10" height="10" rx="5" ry="5" fill="white"></rect>
+                            <rect x="12.5" y="10" width="0" height="0" rx="0" ry="0" fill="black"></rect>
+                            <polygon points="-2.16506,-2.5 2.16506,0 -2.16506,2.5" fill="black" transform="scale(0) translate(13.125 10)" style="transform-origin: 13.125px 10px;">
+                            </polygon>
+                            <circle fill="black" cx="12.5" cy="10" r="0"></circle>
+                        </mask>
+                        <rect fill="hsl(139, calc(var(--saturation-factor, 1) * 47.3%), 43.9%)" width="25" height="15" mask="url(#2b3fa5a7-0ec2-4469-b164-f8d5007235b6)"></rect>
+                    </svg>
+                    <rect x="22" y="22" width="10" height="10" fill="transparent" aria-hidden="true" class="pointerEvents-2zdfdO"></rect>
+                </svg>
+                <div class="flex flex-column">
+                    <span class="font-white">Made 😎 by Mehul </span>
+                    
+                </div>
+             </div>
+        </aside>
+    </nav>
+
+    <div class="container">
+        <div class="mt-3">
+            <h1 class="pb-1">Modal</h1>
+            <p class="pb-1">A modal is a dialog box/popup window that is displayed on top of the current page.</p>
+            <p class="pb-1">On simple modal when you click outside of modal it get dismissed. it comes by default with simple modal and if you wish to remove it just remove that implementation. 
+                <span class="text-red">To remove the code check the simple implementation of Modal's js code and remove the last line.</span>
+            </p>
+
+            <div class="card mt-1 ">
+                <div class="card-title">
+                    <h3>Simple Modal</h3>
+                </div>
+                <div class="card-content flex flex-space-evenly flex-wrap gap pt-2 pb-2">
+
+                    <button class="btn-primary btn btn-py-1" id="showModalBtn">Show Modal</button>
+
+
+                    <div class="modal hide md-effect-1" id="modalExample">
+                        <div class="modal-container card-py modal-width-80">
+
+                            <div class="flex flex-between  flex-align-item-center pt-1 pb-1">
+                                <h1 class="font-mid-bold card-header-text">Modal Header</h1>
+                                <span
+                                    class="material-icons  card-close-btn flex flex-justify-center flex-align-item-center"
+                                    id="modalCloseBtn">close</span>
+                            </div>
+                            <div class="card-mb-1 model-content py-1">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quod consectetur
+                                placeat aperiam, explicabo omnis. Labore voluptas pariatur, cum sint eligendi quas iste
+                                dicta? Illum voluptates amet ipsa hic, totam ratione ab neque, molestiae explicabo
+                                cupiditate possimus corrupti dicta fugit in soluta optio architecto, consequuntur
+                                minima. Quis beatae quas dolores reiciendis odit magni dignissimos? Numquam enim vel,
+                                commodi aspernatur, consequatur maiores ut ipsum placeat voluptatem vero quam unde
+                                impedit quia adipisci suscipit, earum doloribus? Velit voluptatibus eligendi beatae
+                                exercitationem ipsam sequi et tempora repellendus. Ducimus exercitationem iure
+                                voluptatibus quisquam, minus sint odit autem ullam, nam reiciendis quos debitis ipsam
+                                dolorem! Nobis eum dolor maxime eligendi, minima quisquam commodi a corporis optio
+                                doloribus dolores nam deserunt rerum provident ad minus perspiciatis beatae sequi
+                                inventore saepe quo laboriosam? Voluptate dolore architecto expedita ipsa. Maxime quis
+                                error quasi eligendi inventore velit possimus, minus similique odit omnis quo unde
+                                porro, nam excepturi soluta nulla accusantium temporibus. Ex doloribus, omnis eaque quo
+                                est distinctio dignissimos eum autem perspiciatis. Quos in, magni, ab maxime numquam
+                                ratione alias aut consectetur culpa cum corrupti cupiditate, dolores quisquam sint
+                                voluptate laborum doloribus! Voluptas veritatis nam cupiditate pariatur, dignissimos
+                                maxime voluptatem! Qui doloremque alias possimus fuga provident pariatur tempora fugit
+                                eveniet corrupti maxime? Sit repellat minus, aperiam eius ab aliquid hic, illo culpa, id
+                                sequi voluptas nihil in esse explicabo. Dignissimos molestias quisquam sit ad
+                                perferendis laudantium harum dolore deserunt enim, nisi, totam consectetur. Consectetur
+                                ratione sapiente quaerat laudantium ad laborum fuga nobis vel dolorum, obcaecati eaque
+                                rerum maxime ipsam! Ea minima porro sunt ducimus? Delectus saepe iusto minima, vel,
+                                corporis numquam omnis assumenda harum quasi blanditiis, quae molestiae eum voluptates
+                                unde iste a veritatis nulla porro doloremque? Commodi blanditiis explicabo quas iure
+                                dolore fugit a eos ad! Eius nihil, unde atque assumenda tenetur consequatur dolor ipsam
+                                excepturi eum delectus accusantium suscipit sit ut. Sunt, cumque minima natus
+                                perspiciatis quisquam id quo error amet ullam illum earum officiis explicabo odit
+                                dolorem eius, quidem doloribus at molestias aliquid obcaecati, pariatur non officia vel
+                                tenetur? Cumque necessitatibus perferendis ullam est? Qui odit reiciendis placeat
+                                perferendis cum vel, nesciunt minus, pariatur aut deserunt eligendi? Molestias mollitia
+                                doloremque excepturi minima quia sunt, similique saepe quas dicta, veniam accusantium
+                                autem cupiditate aspernatur, consectetur praesentium sequi. Itaque illo corporis maiores
+                                sequi quisquam sint, recusandae unde molestias cumque quod tempore culpa aut quis at
+                                vero, reprehenderit officia quae cupiditate alias suscipit explicabo optio fugiat.
+                                Voluptatem, harum fuga.
+                            </div>
+                            <div class="flex  pt-1 pb-1 flex-justify-end">
+                                <button class="btn-primary btn btn-sm ">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer">
+                    <script type="text/plain" class="line-numbers language-markup prism-default">
+                        <!-- Model Example -->
+                    <button class="btn-primary btn btn-py-1" id="showModalBtn">Show Modal</button>
+
+                    <!-- Model Container -->
+                    <div class="modal hide md-effect-1" id="modalExample">
+                        <div class="modal-container card-py modal-width-80">
+                            <div class="flex flex-between  flex-align-item-center pt-1 pb-1">
+                                <h1 class="font-mid-bold card-header-text">Modal Header</h1>
+                                <span
+                                    class="material-icons  card-close-btn flex flex-justify-center flex-align-item-center"
+                                    id="modalCloseBtn">close</span>
+                            </div>
+                            <div class="card-mb-1 model-content py-1">
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat quod consectetur
+                                placeat aperiam, explicabo omnis. Labore voluptas pariatur, cum sint eligendi quas iste
+                                dicta? Illum voluptates amet ipsa hic, totam ratione ab neque, molestiae explicabo
+                                cupiditate possimus corrupti dicta fugit in soluta optio architecto, consequuntur
+                                minima. Quis beatae quas dolores reiciendis odit magni dignissimos? Numquam enim vel,
+                                commodi aspernatur, consequatur maiores ut ipsum placeat voluptatem vero quam unde
+
+                            </div>
+                            <div class="flex  pt-1 pb-1 flex-justify-end">
+                                <button class="btn-primary btn btn-sm ">Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    </script>
+                    <script type="text/plain" class="line-numbers language-js ">
+                        <!-- Model Example -->
+                        const modal = document.querySelector('#modalExample');
+                        const modalCloseBtn = document.querySelector('#modalCloseBtn');
+                        const showModalBtn = document.querySelector('#showModalBtn');
+
+                        showModalBtn.addEventListener('click',()=> modal.classList.remove('hide'));
+                        modalCloseBtn.addEventListener('click',()=> modal.classList.add('hide'));
+
+                        // activates listener when user click outside of modal and hide modal.
+                        window.addEventListener('click',(e)=> (e.target === modal)? modal.classList.add('hide'):'')
+                    </script>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="mt-3">
+            <h1 class="pb-1">Footer Modal</h1>
+            <p class="pb-1"></p>
+            <div class="card mt-1 ">
+                <div class="card-content flex flex-space-evenly flex-wrap gap pt-2 pb-2">
+
+                    <button class="btn-primary btn btn-py-1" id="showModalBtn1">Show Footer Modal</button>
+
+
+                    <div class="modal  modal hide md-effect-1 flex flex-space-evenly" id="modalFooterExample1">
+                        <div class="model-container-bottom ">
+
+                            <div class="flex flex-between  flex-align-item-center pt-1 pb-1 my-1">
+                                <h1 class=" font-mid-bold card-header-text ">Check-Out</h1>
+                                <span
+                                    class="material-icons  card-close-btn flex flex-justify-center flex-align-item-center"
+                                    id="modalFooterCloseBtn1">close</span>
+                            </div>
+                            <div class="card-mb-1  py-1 ">
+                                <div class="flex flex-column model-content-footer">
+                                    <div class="flex flex-wrap flex-row  gap">
+                                        <ul class="list-style-none notification-container width-full card-py">
+                                            <div class="flex">
+                                                <div class="mr-1 flex">
+                                                    <img src="../components/img/list-food.jfif"
+                                                        class="notification-img" alt="chicken-tandoori" loading="lazy"
+                                                        srcset="">
+                                                </div>
+                                                <div class="flex flex-column flex-space-evenly">
+                                                    <span class="font-bold pb-1">Your food is on its way.</span>
+                                                    <span class="font-mid-light pb-04">Order id : <span
+                                                            class="col-dark">#5421112</span></span>
+                                                    <span class="font-mid-light pb-04">Time : <span
+                                                            class=" col-dark">10.50PM</span></span>
+                                                    <span class="font-mid-light pb-04">Total Amount : <span
+                                                            class="col-dark">$50</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </ul>
+
+                                    </div>
+                                    <div class="flex flex-wrap flex-row  gap">
+                                        <ul class="list-style-none notification-container width-full card-py">
+                                            <div class="flex">
+                                                <div class="mr-1 flex">
+                                                    <img src="../components/img/list-food.jfif"
+                                                        class="notification-img" alt="chicken-tandoori" loading="lazy"
+                                                        srcset="">
+                                                </div>
+                                                <div class="flex flex-column flex-space-evenly">
+                                                    <span class="font-bold pb-1">Your food is on its way.</span>
+                                                    <span class="font-mid-light pb-04">Order id : <span
+                                                            class="col-dark">#5421112</span></span>
+                                                    <span class="font-mid-light pb-04">Time : <span
+                                                            class=" col-dark">10.50PM</span></span>
+                                                    <span class="font-mid-light pb-04">Total Amount : <span
+                                                            class="col-dark">$50</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </ul>
+
+                                    </div>
+                                </div>
+                                <button class="btn-primary btn btn-py-1 mt-1 flex flex-justify-center width-full ">
+                                    <span class="font-size-sm"> Check-Out </span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="card-footer">
+                    <script type="text/plain" class="line-numbers language-markup prism-default">
+                    <!-- Footer Model Example -->
+                    <button class="btn-primary btn btn-py-1" id="showModalBtn1">Show Footer Modal</button>
+
+                    <!-- Model Container -->
+                    <div class="modal hide md-effect-1 flex flex-space-evenly" id="modalFooterExample1">
+                        <div class="model-container-bottom ">
+
+                            <div class="flex flex-between  flex-align-item-center pt-1 pb-1 my-1">
+                                <h1 class=" font-mid-bold card-header-text ">Check-Out</h1>
+                                <span
+                                    class="material-icons  card-close-btn flex flex-justify-center flex-align-item-center"
+                                    id="modalFooterCloseBtn1">close</span>
+                            </div>
+                            <div class="card-mb-1  py-1 ">
+                                <div class="flex flex-column model-content-footer">
+                                    <div class="flex flex-wrap flex-row  gap">
+                                        <ul class="list-style-none notification-container width-full card-py">
+                                            <div class="flex">
+                                                <div class="mr-1 flex">
+                                                    <img src="../components/img/list-food.jfif"
+                                                        class="notification-img" alt="chicken-tandoori" loading="lazy"
+                                                        srcset="">
+                                                </div>
+                                                <div class="flex flex-column flex-space-evenly">
+                                                    <span class="font-bold pb-1">Your food is on its way.</span>
+                                                    <span class="font-mid-light pb-04">Order id : <span
+                                                            class="col-dark">#5421112</span></span>
+                                                    <span class="font-mid-light pb-04">Time : <span
+                                                            class=" col-dark">10.50PM</span></span>
+                                                    <span class="font-mid-light pb-04">Total Amount : <span
+                                                            class="col-dark">$50</span>
+                                                    </span>
+                                                </div>
+                                            </div>
+
+                                        </ul>
+
+                                    </div>
+
+                                </div>
+                                <button class="btn-primary btn btn-py-1 mt-1 flex flex-justify-center width-full ">
+                                    <span class="font-size-sm"> Check-Out </span>
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    </script>
+
+                    <script type="text/plain" class="line-numbers language-js ">
+                    const modal2 = document.querySelector('#modalFooterExample1');
+                    const modalCloseBtn2 = document.querySelector('#modalFooterCloseBtn1');
+                    const showModalBtn2 = document.querySelector('#showModalBtn1');
+                    showModalBtn2.addEventListener('click',()=> modal2.classList.remove('hide'));
+                    modalCloseBtn2.addEventListener('click',()=> modal2.classList.add('hide'));
+                  </script>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../components/menu/menu.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+    <script src="../components/modal/modal.js"></script>
+    <script src="../document/prism.js"></script>
+
+</body>
+
+</html>
