@@ -1,13 +1,14 @@
-/* @import url('../../components/root.css');
-@import url('../../components/list/list.css');
-@import url('../../components/toast/toast.css'); */
 
 @import url('../../components/framer.css');
 
+:root{
+    --nav-bg:#ffff;
+    --txt-col-black:rgb(22, 21, 21);
+}
 .navbar{
     padding:1rem;
-    background: white;
-    color: rgb(22, 21, 21);
+    background: var(--nav-bg);
+    color: var(--txt-col-black);
 }
 
 .navbar-primary{
@@ -31,7 +32,6 @@
 
 .navbar-icons{
     padding: 0.5rem;
-    font-size: 1.3rem !important;
     cursor: pointer;
 }
 
@@ -40,7 +40,6 @@
      font-size: 1rem;
      cursor: pointer;
 }
-
 
 .nav-text:hover{
     font-weight: 600;
