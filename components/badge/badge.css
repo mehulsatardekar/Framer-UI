@@ -1,8 +1,4 @@
-/* @import url('../../components/root.css');
-@import url('../../components/avatar/avatar.css'); */
-
 @import url('../../components/framer.css');
-
 
 :root{
     --badge-primary:#4F46E5;
@@ -11,6 +7,7 @@
     --badge-dark:#121212;
     --badge-warning:#ce972a;
     --text-col-white:#fff;
+    --badge-shadow:rgb(128, 127, 127);
 }
 .badge-primary-text{
       color: var(--badge-primary);
@@ -30,8 +27,6 @@
 .badge-warning-text{
     color: var(--badge-warning);
 }
-
-
 
  .badge-primary{
     background: var(--badge-primary);
@@ -60,7 +55,6 @@
     margin-left: 0.5rem;
     border-radius: 0.313rem;
     color: var(--text-col-white);
-    
 }
 
 .font-size{
@@ -75,7 +69,6 @@
     color: var(--text-col-white);
 }
 
-
 .badge-text-round-sm{
     padding :0.3rem;
     margin-left: 0.5rem;
@@ -85,13 +78,11 @@
 }
 /**/
 
-
 /* status badge  */
 
 .badge{
     position: relative;
     cursor: pointer;
-    
 }
 
 .badge-status-sm{
@@ -118,13 +109,11 @@
     border-radius: 50%;
 }
 
-
 .icon-badge{
     padding: 0.625rem;
     border-radius: 50%;
     color: var(--text-col-white);
 }
-
 
 .badge-circle{
     position: absolute;
@@ -136,6 +125,6 @@
 }
 
 .badge-status-shadow{
-    border: 0.1rem  solid white;
-    box-shadow: 1px 2px 3px rgb(128, 127, 127);
+    border: 0.1rem  solid var(--text-col-white);
+    box-shadow: 1px 2px 3px var(--badge-shadow);
 }
