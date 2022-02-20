@@ -1,11 +1,10 @@
-/* @import url('../../components/root.css'); */
 
 
 @import url('../../components/framer.css');
 
 
 .btn-py-1{
-    padding:0.7rem 2rem 0.7rem 2rem;
+    padding:0.7rem 2rem;
 
 }
 
@@ -18,11 +17,11 @@
 }
 
 .btn-lg{
-    padding :1.3rem 2.5rem 1.3rem 2.5rem;
+    padding :1.3rem 2.5rem ;
 }
 
 .btn-sm{
-    padding :0.5rem 2.5rem 0.5rem 2.5rem;
+    padding :0.5rem 2.5rem ;
 
 }
 
@@ -192,7 +191,7 @@
 
 .btn-round-50{
     border-radius: 50%;
-    padding: 0.313rem 0.438rem 0.313rem 0.438rem;
+    padding: 0.313rem 0.438rem ;
 }
 
 
