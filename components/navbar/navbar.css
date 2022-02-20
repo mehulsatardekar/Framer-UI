@@ -1,0 +1,51 @@
+
+@import url('../../components/framer.css');
+
+:root{
+    --nav-bg:#ffff;
+    --txt-col-black:rgb(22, 21, 21);
+}
+.navbar{
+    padding:1rem;
+    background: var(--nav-bg);
+    color: var(--txt-col-black);
+}
+
+.navbar-primary{
+    background: var(--col-primary);
+}
+.navbar-danger{
+    background: var(--col-danger);
+}
+
+.navbar-dark{
+    background: var(--col-dark);
+}
+
+.navbar-white-text{
+    color: var(--text-col-white);
+}
+
+.navbar-dark-text{
+    color: var(--col-dark);
+}
+
+.navbar-icons{
+    padding: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-text{
+     font-weight: 500;
+     font-size: 1rem;
+     cursor: pointer;
+}
+
+.nav-text:hover{
+    font-weight: 600;
+}
+
+.navbar-fixed{
+    position: sticky;
+    top: 0;
+}
