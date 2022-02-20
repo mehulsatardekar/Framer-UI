@@ -1,58 +1,58 @@
-/* @import url('../../components/root.css');
-@import url('../../components/card/card.css'); */
-
-
 @import url('../../components/framer.css');
 
-
-
 /*Fonts*/
+:root{
+    --font-gray:#828282;
+}
 
 .font-white{
     color: var(--text-col-white);
 }
+
 .text-red{
     color: var(--col-danger);
 }
+
+.text-gray{
+    color:var(--font-gray);
+ }
+
 .font-size-sm{
   font-size: 1rem;
 }
 
 .font-bold{
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.5rem;
 }
-
 
 .font-light{
     font-weight: lighter;
     font-size: medium;
-    line-height: 20px;
-    color: #828282;
+    line-height: 1.25rem;
+    color: var(--font-gray);
 }
+
 .font-mid-light{
     font-weight: 400;
     font-size: medium;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
-
 
 .font-mid-bold{
     font-weight: 700;
     font-size: 1.5em;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .font-weight-800{
     font-weight: 800;
-
 }
-
 
 .font-md-light{
     font-weight: 450;
     font-size: 1rem;
-    line-height: 20px;
+    line-height: 1.25rem;
 }
 
 .font-ex-lg{
@@ -61,7 +61,6 @@
 
 .font-lg{
     font-size: 4rem;
-
 }
 
 .font-md{
