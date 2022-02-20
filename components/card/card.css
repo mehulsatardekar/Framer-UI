@@ -1,10 +1,16 @@
-/* @import url('../../components/root.css');
-@import url('../../components/Buttons/button.css');
-@import url('../../components/shadow.css'); */
-
 
 @import url('../../components/framer.css');
 
+:root{
+    --card-btn-border:rgba(121, 121, 121, 0.0);
+    --card-bg-btn:#F5F3FF;
+    --rating-sec:#E03546;
+    --card-badge-col:#F5F3FF;
+    --card-bg:#fff;
+    --ui-card-bg: rgb(245, 245, 245);
+    --rating-bg:#ffda6b;
+    --ui-card-border:rgb(0,0,0,0.1);
+}
 /* card-close button*/
 .card-close-btn{
     padding: 4px;
@@ -12,18 +18,16 @@
     border-radius: 50%;
     height: 3%;
     cursor: pointer;
-    border: 1px solid rgba(121, 121, 121, 0.0);
-
+    border: 1px solid var(--card-btn-border);
 }
 
 .card-close-btn:hover{
     border: 1px solid var(--col-primary);
     font-weight: 800;
     color: var(--col-primary);
-    background-color: #F5F3FF;
+    background-color: var(--card-bg-btn);
     transition: background-color 0.4s ease-in-out;
 }
-
 
 /* card default padding*/
 
@@ -34,7 +38,6 @@
 .card-pl{
     padding-left: 0.5rem !important;
 }
-
 
 .card-mt-1{
     margin-top: 1rem;
@@ -54,7 +57,6 @@
     font-size: 0.875rem;
 }
 /*padding*/
-
 
 /* card header text*/
 
@@ -89,9 +91,9 @@
 
 /* cards types */
 .ui-card-default{
-    border: 1px solid rgb(0,0,0,0.1);
+    border: 1px solid var(--ui-card-border);
     height:auto;
-    background-color: #fff;
+    background-color: var(--card-bg);
     border-radius: 0.4rem;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     line-height: 1.5rem;
@@ -99,26 +101,23 @@
 
 .ui-card-basic{
     border-radius: 0.625rem;
-    background-color: rgb(245, 245, 245);
+    background-color: var(--ui-card-bg);
     line-height: 1.5rem;
     
 }
 
 .ui-card-basic-border{
-    border:1px solid rgb(0,0,0,0.1);
+    border:1px solid var(--ui-card-border);
 
 }
 .ui-card-basic-border:hover{
     border: 1px solid rgb(0,0,0,0.2);
 }
 
-
 .ui-card-img{
     width: 100%;
     border-radius: 5px;
-   
 }
-
 
 .ui-card-rating{
     background-color: var(--col-success);
@@ -126,11 +125,11 @@
 }
 
 .star-yellow{
-    color: #ffda6b;
+    color: var(--rating-bg);
 }
 
 .rating-section{
-    background-color: #E03546;
+    background-color: var(--rating-sec);
     border-radius: 3px;
 }
 
@@ -141,11 +140,11 @@
 /* card list */
 
 .ui-card-list{
-    border:1px solid rgb(0,0,0,0.1);
+    border:1px solid var(--ui-card-border);
     border-radius:6px;
     display: flex;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: var(--card-bg);
 }
 .ui-card-list > .ui-card-list-img > img{
     border-radius: 8px;
@@ -168,7 +167,7 @@
 @media screen and (max-width:680px) {
     .ui-card-list{
         width: 100%;
-        border:1px solid rgb(0,0,0,0.1);
+        border:1px solid var(--ui-card-border);
         border-radius:6px;
         display: flex;
         flex-direction: column;
@@ -206,8 +205,6 @@
 
 }
 
-
-
 .card-overlay-banner{
     background-image: 
     linear-gradient(
@@ -220,16 +217,16 @@
     left: 0px;
     height: 100%;
     position: absolute;
-    color: #F5F3FF;
+    color: var(--card-badge-col);
     border-radius: 0.625rem;
 
 }
 
 .card-badge{
     position: absolute;
-    background: #E03546;
-    bottom:15px;
-    color: #F5F3FF;
+    background: var(--rating-sec);
+    bottom:0.938rem;
+    color: var(--card-badge-col);
     padding: 1px;
     font-size: 0.8rem;
 }
