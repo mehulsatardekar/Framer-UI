@@ -1,4 +1,3 @@
-/* @import url('../../components/root.css'); */
 
 
 @import url('../../components/framer.css');
@@ -9,9 +8,10 @@
     cursor: pointer;
     transition: all 0.2s ease;
 }
-.rating-icon-size{
-    font-size: 40px !important;
 
+
+.card > .card-content > .flex> .rating-icon >.rating-icon-size{
+  font-size: 2.5rem;
 }
 
 .rating-container label:hover,
