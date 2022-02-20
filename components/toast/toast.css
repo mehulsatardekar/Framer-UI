@@ -1,0 +1,88 @@
+/* @import url('../../components/root.css');
+@import url('../../components/Buttons/button.css');
+@import url('../../components/alert/alert.css'); */
+
+
+@import url('../../components/framer.css');
+
+.snackbar-primary{
+    background: var(--col-primary);
+    color: var(--text-col-white);
+}
+
+.snackbar-success{
+    background: var(--col-success);
+    color: var(--text-col-white);
+}
+
+.snackbar-dark{
+    background: var(--col-dark);
+    color: var(--text-col-white);
+}
+
+.snackbar-danger{
+    background: var(--col-danger);
+    color: var(--text-col-white);
+}
+.snackbar{
+    padding: 10px;
+    border-radius: 0.4rem;
+    z-index: 1;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+.snackbar-icons{
+    font-size: 20px !important;
+    padding: 0.3rem;
+    cursor: pointer;
+
+}
+.snackbar-icons:hover{
+    background: rgba(151, 153, 155, 0.411);
+    border-radius: 50%;
+    transition: background 0.4s ease-in-out;
+}
+
+
+
+.snack-fixed{
+    position: fixed;
+   
+}
+
+.snack-center{
+    bottom: 1rem;
+}
+
+.snack-left{
+    left: 20px;
+    bottom: 30px;
+}
+
+.snack-right{
+    right: 20px;
+    bottom: 30px;
+}
+
+
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }

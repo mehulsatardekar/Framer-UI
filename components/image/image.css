@@ -1,0 +1,33 @@
+@import url('../../components/framer.css');
+
+
+.img-responsive{
+    width: 100%;
+    height: auto; 
+  }
+  
+.img-border-05px{
+      background-color: #fff;
+      border-radius: 0px;
+  }
+  
+  .img-round-full{
+      border-radius: 50%;
+      aspect-ratio: 1/1;
+  }
+
+  .img-square{
+      border-radius: 10px;
+  }
+
+  .img-lg{
+     height: 14.375rem;
+  }
+
+  .img-sm{
+      height: 5rem;
+  }
+
+  .img-md{
+     height: 8.125rem;
+  }

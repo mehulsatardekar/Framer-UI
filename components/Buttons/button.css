@@ -1,0 +1,180 @@
+
+@import url('../../components/framer.css');
+
+.btn-py-1{
+    padding:0.7rem 2rem;
+}
+
+.btn-pl-1{
+    padding-left:2rem;
+}
+
+.btn-pr-1{
+    padding-right:2rem;
+}
+
+.btn-lg{
+    padding :1.3rem 2.5rem ;
+}
+
+.btn-sm{
+    padding :0.5rem 2.5rem ;
+}
+
+.btn{
+    border-radius: 0.188rem;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.btn-link{
+    text-decoration:underline;
+      background-color: transparent;
+      cursor: pointer;
+  }
+
+  
+.btn-primary{
+     
+    color: var(--text-col-white);
+    background-color: var(--col-primary);
+    border: 2px solid var(--col-primary);
+}
+
+.btn-primary:active{
+    background-color: var(--col-primary-light);
+}
+
+
+.btn-success{
+    border: 2px solid var(--col-success);
+    color: var(--text-col-white);
+    background-color: var(--col-success);
+}
+
+.btn-success:active{
+    background-color: var(--col-success-light);
+}
+
+.btn-danger{
+    border: 2px solid var(--col-danger);
+    color: var(--text-col-white);
+    background-color: var(--col-danger);
+}
+
+.btn-danger:active{
+    background-color: var(--col-danger-light);
+}
+
+.btn-warning{
+    border: 2px solid var(--col-warning);
+    color: var(--text-col-white);
+    background-color: var(--col-warning);
+}
+
+.btn-warning:active{
+    background-color: var(--col-warning-light);
+}
+
+.btn-dark{
+     
+    color: var(--text-col-white);
+    background-color: var(--col-dark); 
+}
+
+.btn-dark:active{
+    background-color: var(--col-dark-light);
+}
+
+/* btn outline */
+
+.btn-outline-primary{
+    border: 2px solid var(--col-primary);
+    color: var(--col-primary);
+    background-color: var(--bg-col-btn);
+}
+
+.btn-outline-success{
+    border:2px solid var(--col-success);
+    color: var(--col-success);
+    background-color: var(--bg-col-btn);
+}
+
+
+.btn-outline-danger{
+    border:2px solid var(--col-danger);
+    color: var(--col-danger);
+    background-color: var(--bg-col-btn);
+
+}
+.btn-outline-warning{
+    border:2px solid var(--col-warning);
+    color: var(--col-warning);
+    background-color: var(--bg-col-btn);
+
+}
+
+.btn-outline-dark{
+    border:2px solid var(--col-dark);
+    background-color: var(--bg-col-btn);
+    color:var(--col-dark)
+}
+
+.btn-outline-primary:hover{
+    
+    color: var(--text-col-white);
+    background-color: var(--col-primary);
+}
+
+.btn-outline-success:hover{
+     
+    color: var(--text-col-white);
+    background-color: var(--col-success);
+}
+
+.btn-outline-danger:hover{
+     
+    color: var(--text-col-white);
+    background-color: var(--col-danger);
+}
+
+
+.btn-outline-warning:hover{  
+    color: var(--text-col-white);
+    background-color: var(--col-warning);
+}
+
+.btn-outline-dark:hover{  
+    color: var(--text-col-white);
+    background-color: var(--col-dark);
+}
+
+/*Button shapes*/
+
+.btn-round-10{
+    border-radius: 0.625rem;
+}
+
+.btn-round-20{
+    border-radius:1.25rem;
+}
+
+.btn-round-50{
+    border-radius: 50%;
+    padding: 0.313rem 0.438rem ;
+}
+
+
+/* float button*/
+
+.btn-float{
+    position: fixed;
+    right: 1.25rem;
+    bottom: 1.875rem;
+}

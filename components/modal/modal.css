@@ -1,0 +1,85 @@
+
+@import url('../../components/framer.css');
+
+ :root{
+   --modal-bg-fallback :#rgb(0,0,0);
+   --modal-bg-fallback-op: rgba(0,0,0,0.4);
+   --modal-bg-container: #fefefe;
+   --modal-bg-border: #888;
+ }
+.modal {
+    position: fixed; 
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: var(--modal-bg-fallback); /* Fallback color */
+    background-color: var(--modal-bg-fallback-op); /* Black w/ opacity */
+  }
+  
+  .modal-container {
+    background-color: var(--modal-bg-container);
+    margin: 5% auto;
+    padding: 10px;;
+    border: 1px solid var(--modal-bg-border);
+    border-radius: 10px;
+  }
+
+  .modal-width-80{
+    width: 80%;
+  }
+  
+  .model-content{
+     overflow: auto;
+     height: 20.625rem;
+     line-height: 2rem;
+     word-spacing: 1px;
+  }
+
+  .model-container-bottom{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--modal-bg-container);
+    width: 100%;
+    height: 26.875rem;
+    -webkit-animation-name: slideIn;
+    -webkit-animation-duration: 0.4s;
+    animation-name: slideIn;
+    animation-duration: 0.4s
+  }
+  
+  
+  .model-content-footer{
+    overflow: auto;
+    height: 14.375rem;
+  }
+  @-webkit-keyframes slideIn {
+    from {bottom: -18.75rem; opacity: 0} 
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @keyframes slideIn {
+    from {bottom: -18.75rem; opacity: 0}
+    to {bottom: 0; opacity: 1}
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0} 
+    to {opacity: 1}
+  }
+  
+  @media screen and (max-width:680px) {
+      
+      .modal-container{
+          margin: 20% auto;
+      }
+      
+  }
+  
