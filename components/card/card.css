@@ -1,0 +1,238 @@
+
+@import url('../../components/framer.css');
+
+:root{
+    --card-btn-border:rgba(121, 121, 121, 0.0);
+    --card-bg-btn:#F5F3FF;
+    --rating-sec:#E03546;
+    --card-badge-col:#F5F3FF;
+    --card-bg:#fff;
+    --ui-card-bg: rgb(245, 245, 245);
+    --rating-bg:#ffda6b;
+    --ui-card-border:rgb(0,0,0,0.1);
+}
+/* card-close button*/
+.card-close-btn{
+    padding: 4px;
+    margin: 0px;
+    border-radius: 50%;
+    height: 3%;
+    cursor: pointer;
+    border: 1px solid var(--card-btn-border);
+}
+
+.card-close-btn:hover{
+    border: 1px solid var(--col-primary);
+    font-weight: 800;
+    color: var(--col-primary);
+    background-color: var(--card-bg-btn);
+    transition: background-color 0.4s ease-in-out;
+}
+
+/* card default padding*/
+
+.card-py{
+    padding: 0.8rem;
+}
+
+.card-pl{
+    padding-left: 0.5rem !important;
+}
+
+.card-mt-1{
+    margin-top: 1rem;
+}
+.card-mb-1{
+    margin-bottom: 1rem;
+}
+.text-center{
+    text-align: center;
+}
+
+.card-rating-padding{
+    padding-top: 1px;
+    padding-left: 7px;
+    color: var(--text-col-white);
+    font-weight: 550;
+    font-size: 0.875rem;
+}
+/*padding*/
+
+/* card header text*/
+
+.card-header-text{
+    color: var(--col-primary );
+}
+
+/* card container width*/
+.width-full{
+    width: 100%;
+}
+
+.width-half{
+    width: 50%;
+}
+
+.ui-card-width-300{
+  width: 18.75rem;
+}
+
+.ui-card-width-500{
+    width: 31.25rem;
+}
+
+.ui-card-width-800{
+    width: 50rem;
+}
+
+.ui-card-width-900{
+    width: 56.25rem;
+}
+
+/* cards types */
+.ui-card-default{
+    border: 1px solid var(--ui-card-border);
+    height:auto;
+    background-color: var(--card-bg);
+    border-radius: 0.4rem;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    line-height: 1.5rem;
+}
+
+.ui-card-basic{
+    border-radius: 0.625rem;
+    background-color: var(--ui-card-bg);
+    line-height: 1.5rem;
+    
+}
+
+.ui-card-basic-border{
+    border:1px solid var(--ui-card-border);
+
+}
+.ui-card-basic-border:hover{
+    border: 1px solid rgb(0,0,0,0.2);
+}
+
+.ui-card-img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.ui-card-rating{
+    background-color: var(--col-success);
+    
+}
+
+.star-yellow{
+    color: var(--rating-bg);
+}
+
+.rating-section{
+    background-color: var(--rating-sec);
+    border-radius: 3px;
+}
+
+.ui-card-rating-text{
+    color: var(--text-col-white);
+}
+
+/* card list */
+
+.ui-card-list{
+    border:1px solid var(--ui-card-border);
+    border-radius:6px;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--card-bg);
+}
+.ui-card-list > .ui-card-list-img > img{
+    border-radius: 8px;
+    height: 8.125rem;
+    width: auto;
+}
+
+.ui-card-list > .ui-card-list-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0em;
+}
+
+.ui-card-list > .ui-card-list-button{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width:680px) {
+    .ui-card-list{
+        width: 100%;
+        border:1px solid var(--ui-card-border);
+        border-radius:6px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .ui-card-list > .ui-card-list-img > img{
+        border-radius: 8px;
+        height: auto;
+        width: 100%;
+    }
+
+    .ui-card-list > .ui-card-list-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding: 1em 0em 0.8em 0em;
+        gap:1rem;
+    }
+
+    .ui-card-list> .ui-card-list-content > span{
+        padding: 5px 0px 3px 0px;
+    }
+    .ui-card-list > .ui-card-list-button{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .ui-card-small-override-prop{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+.card-overlay-banner{
+    background-image: 
+    linear-gradient(
+      rgba(32, 28, 28, 0.8),
+      rgba(53, 49, 49, 0.6),
+      rgba(32, 28, 28, 0.8)
+    );
+    width: 100%;
+    top: 1px;
+    left: 0px;
+    height: 100%;
+    position: absolute;
+    color: var(--card-badge-col);
+    border-radius: 0.625rem;
+
+}
+
+.card-badge{
+    position: absolute;
+    background: var(--rating-sec);
+    bottom:0.938rem;
+    color: var(--card-badge-col);
+    padding: 1px;
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
