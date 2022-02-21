@@ -1,16 +1,21 @@
 
 @import url('../../components/framer.css');
 
+
+@import url('https://relaxed-joliot-b09c31.netlify.app/components/framer.css');
+
+:root{
+  --txt-col-white:#fff;
+  --icon-nav-menu:#999a9b;
+  --sidebar-txt-col:#f9fafb;
+  --selected-txt-bg:#636364;
+  --nav-bg-col:#2c2929;
+  --logo-col:rgb(17, 17, 17);
+}
+
+
 .nav-dark{
    background: var(--col-dark);
-   --nav-text-col:#fff;
-   --nav-icon-bg: #999a9b;
-   --sidebar-menu-bg:#333333;
-   --sidebar-text-col:#f9fafb;
-   --select-txt-bg:#636364;
-   --nav-logo-bg:#2c2929;
-   --select-txt-col:red;
-   --nav-logo-txt-col:rgb(17, 17, 17);
 }
  
 .z-index-max{
@@ -20,12 +25,12 @@
 .icon-nav-menu{
    border-radius: 50%;
    padding: 5px;
-   color: var(--nav-text-col);
+   color: var(--txt-col-white);
    cursor: pointer;
 }
 
 .icon-nav-menu:hover{
-   background: var(--nav-icon-bg);
+   background: var(--icon-nav-menu);
    transition: background 0.4s ease-in-out;
 }
 
@@ -33,7 +38,7 @@
    display: block;
    position: fixed;
    height: 100vh;
-   background-color: var(--sidebar-menu-bg);
+   background-color: #333333;
    width: 1px;
    top:0;  
    z-index: 1111;  
@@ -42,21 +47,21 @@
 
 .sidebar-text{
    font-size: 1.2rem;
-   color: var(--sidebar-text-col);
+   color: var(--sidebar-txt-col);
 }
 .sidebar-text:hover{
-   color: var(--sidebar-text-col);
+   color: var(--sidebar-txt-col);
 }
 .selected-text{
-   padding: 10px 0px 10px 20px;
-   color: var(--select-txt-bg);
+   padding: 10px 0px 10px 1.25rem;
+   color: red;
 }
 .selected-text:hover{
-   background: var(--select-txt-bg);
+   background: var(--selected-txt-bg);
 }
 
 .selected-text:focus{
-   background: var(--select-txt-bg);
+   background: var(--selected-txt-bg);
 }
 
 .sidebar-menu-width{
@@ -83,11 +88,11 @@
 
 .nav-logo{
    padding: 1.25rem;
-   background-color: var(--nav-logo-bg) ;
+   background-color: var(--nav-bg-col) ;
 }
 
 .logo-color{
-   color: var(--nav-logo-txt-col);
+   color: var(--logo-col);
 }
 
  .sidebar-logo{
@@ -96,7 +101,7 @@
 
  .logo-text{
    padding-left: 1rem;
-   color: var(--nav-text-col);
+   color: var(--txt-col-white);
    font-size: 1.5rem;
    font-weight: 600;
 }
