@@ -188,6 +188,7 @@ different pages.
 You will find the following types of _Navigation_ on https://framer-ui.netlify.app/docs/navigation.html
 
 - Navbars with (primary,danger,dark) colors.
+- Sidebar/Drawer
 
 ---
 
