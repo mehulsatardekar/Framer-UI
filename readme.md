@@ -4,12 +4,16 @@
 
 # Framer UI
 
-Now design your project faster and better with Palasio Designs
+The Highly Customizable, Scalable, and Responsive css framework.
 
 ![Forks](https://img.shields.io/github/forks/mehulsatardekar/Framer-UI)
 ![Stars](https://img.shields.io/github/stars/mehulsatardekar/Framer-UI)
 
 </div>
+
+---
+
+![Framer UI gif](components/img/Framerui.gif)
 
 ---
 
@@ -35,7 +39,7 @@ To start using the components in your project, Copy-paste the stylesheet `<link>
 - [Card](#card)
 - [Grid](#css-grid)
 - [Image](#image)
-- [Input](#input)
+- [Form](#form)
 - [List](#list)
 - [Modal](#modal)
 - [Navigation](#navigation)
@@ -51,10 +55,9 @@ Alerts can be used to show a message to the user.
 
 You will find the following types of _Alert_ on https://framer-ui.netlify.app/docs/alert.html
 
-- Danger Alert
-- Info Alert
-- Update Alert
-- Success Alert
+- Simple Alerts (primary,success,danger,dark,warning)
+- Alerts with Icons and Text link
+- Alert bar with close button
 
 ---
 
@@ -66,6 +69,7 @@ You will find the following types of _Avatar_ on https://framer-ui.netlify.app/d
 
 - Image and Text Initials Avatars
 - Different Sized Avatars
+- Stacked Avatar group
 
 ---
 
@@ -75,9 +79,8 @@ Badge can be used to show either status of the user (online, offline or dnd) or 
 
 You will find the following types of _Badge_ on https://framer-ui.netlify.app/docs/badges.html
 
-- Number Badge
-- Status Badge
-- Text Badge
+- Text badges with notification
+- Status Badges
 
 ---
 
@@ -87,12 +90,13 @@ Buttons can be used to make your web page interactive to your user. You can use 
 
 You will find the following types of _Button_ on https://framer-ui.netlify.app/docs/button.html
 
-- Default Button
-- Filled Buttons
+- Simple button 
 - Outlined Buttons
+- Large buttons
+- Small Buttons
 - Different Shapes of Buttons
 - Link Button
-- Icon Button
+- Icon Button & Icon button with Text
 - Floating Button
 
 ---
@@ -103,12 +107,13 @@ Cards can be proved very useful. You can use them to display content on an e-com
 
 You will find the following types of _Card_ on https://framer-ui.netlify.app/docs/cards.html
 
-- E-commerce Card
-- Social Media Card
-- Simple Text Card
-- Text Card with Actions
+- Simple Cards 
+- Card With half width/full width & close Button
+- Simple Text Card with button
+- Cards with vertical size and shadows
 - Text Overlay Card
-- Dismiss Card with Shadow
+- Cards with (horizontals & verticals) 
+   -- It grows and shrink based on devices screen.
 
 ---
 
@@ -118,7 +123,7 @@ CSS Grid can be used to structure elements in rows and columns.
 
 You will find the following types of _Grid_ on https://framer-ui.netlify.app/docs/grid.html
 
-- Two Columns Grid
+- 50-50 grids
 - Three Columns Grid
 - 70-30 Layout Grid
 - 30-70 Layout Grid
@@ -131,12 +136,12 @@ Image can be used to display large picture on the website.
 
 You will find the following types of _Image_ on https://framer-ui.netlify.app/docs/image.html
 
-- Round Image
-- Responsive Image
+- Image banner
+- Round Image & Squared Image
 
 ---
 
-### Input
+### Form
 
 Input can be used to take input from your user. It can make your site more interactive.
 
@@ -145,6 +150,9 @@ You will find the following types of _Input_ on https://framer-ui.netlify.app/do
 - Responsive Input Field
 - Responsive Input Field on Errors
 - Input with Icon as a Label
+- disabled Inputs
+- Sliders with stylings
+- Form Login Page.
 
 ---
 
@@ -154,8 +162,9 @@ List can be used to show a list of items.
 
 You will find the following types of _List_ on https://framer-ui.netlify.app/docs/list.html
 
-- Styled Ordered List
+- Styled Ordered List (bullets, No-bullets)
 - Styled Unordered List
+- Inline Lists
 - Notification Stacked List
 
 ---
@@ -166,7 +175,8 @@ Modal can be used for creating dialog boxes, to communicate with user.
 
 You will find the following types of _Modal_ on https://framer-ui.netlify.app/docs/modal.html
 
-- Modal Component
+- Simple Modal
+- Footer Modal
 
 ---
 
@@ -177,8 +187,7 @@ different pages.
 
 You will find the following types of _Navigation_ on https://framer-ui.netlify.app/docs/navigation.html
 
-- Navigation Bar for E-commerce Website
-- Navigation Bar for Social Media Website
+- Navbars with (primary,danger,dark) colors.
 
 ---
 
@@ -199,8 +208,9 @@ Toast can be used to show notifications to the user.
 
 You will find the following types of _Toast_ on https://framer-ui.netlify.app/docs/toast.html
 
-- Conditioned Toast on the Top
-- Default Snackbar on the Bottom
+- Toast On Left Side
+- Toast On Right Side
+- Toast On Centered.
 
 ---
 
@@ -210,10 +220,10 @@ Use Typography to format text content on your web site.
 
 You will find the following types of _Typography_ on https://framer-ui.netlify.app/docs/typography.html
 
-- Display
 - Headings
-- Alignment
 - Inline text elements
+- Gray text with center
+- Blockquote Text 
 
 ---
 
@@ -222,11 +232,6 @@ You will find the following types of _Typography_ on https://framer-ui.netlify.a
 <a href="https://twitter.com/MehulSatardekar"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/mehul-satardekar/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 
----
-
-![Framer UI gif](Assets/component-library-final.gif)
-
----
 
 <div align="center">
 
